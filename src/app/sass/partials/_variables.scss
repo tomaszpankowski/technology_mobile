@@ -1,13 +1,43 @@
 $prefix: "../../../assets/";
-$bg__error-img: $prefix+"img/error.jpg";
 $bg__comingsoon-img: $prefix+"img/coming.jpg";
+$bg__contact-img: 
+    $prefix+"img/contact/contact-s1.jpg",
+    $prefix+"img/contact/contact-s2.jpg",
+    $prefix+"img/contact/contact-s3.jpg";
+$bg__error-img: $prefix+"img/error.jpg";
+$bg__index-img: $prefix+"img/index/index-s1.jpg";
 $bg__privacy-img: $prefix+"img/privacy.jpg";
+$bg__product-img: $prefix+"img/product/product-s1.jpg";
+$bg__promo-img: 
+    $prefix+"img/promo/promo-s1.jpg",
+    $prefix+"img/promo/promo-s2.jpg",
+    $prefix+"img/promo/promo-s3.jpg",
+    $prefix+"img/promo/promo-s4.jpg";
+$bg__service-img: 
+    $prefix+"img/service/service-s1.jpg",
+    $prefix+"img/service/service-s2.jpg",
+    $prefix+"img/service/service-s3.jpg",
+    $prefix+"img/service/service-s4.jpg";
+$bg__user-img: $prefix+"img/user/user-s1.jpg";
 $bg__init:
-    "error",
     "comingsoon",
-    "privacy";
+    "contact",
+    "error",
+    "index",
+    "privacy",
+    "product",
+    "promo",
+    "service",
+    "user";
 $classes_init:
-    $bg__error-img,
     $bg__comingsoon-img,
-    $bg__privacy-img;
+    $bg__contact-img,
+    $bg__error-img,
+    $bg__index-img,
+    $bg__privacy-img,
+    $bg__product-img,
+    $bg__promo-img,
+    $bg__service-img,
+    $bg__user-img;
 $footer-height: 41px;
+$text__shadow: 1px 1px 3px #333;
