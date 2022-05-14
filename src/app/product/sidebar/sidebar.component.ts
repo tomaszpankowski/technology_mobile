@@ -6,7 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sidebar.component.sass']
 })
 export class SidebarComponent implements OnInit {
+  showFilters:boolean=true;
 
+  showHideFilters(){
+    this.showFilters=!this.showFilters;
+  }
   constructor() { }
 
   ngOnInit(): void {
